@@ -1,0 +1,172 @@
+@media (max-width: 1120px) {
+  .impact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .project-row-card {
+    grid-template-columns: 1fr;
+  }
+
+  .welcome-panel {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .topbar {
+    position: static;
+  }
+}
+
+@media (max-width: 860px) {
+  .landing-nav {
+    gap: 14px;
+  }
+
+  .landing-nav .brand {
+    min-width: 0;
+  }
+
+  .landing-nav > .btn {
+    min-height: 40px;
+    padding-inline: 14px;
+  }
+
+  .nav-links {
+    border-radius: 18px;
+  }
+
+  .nav-links a {
+    padding: 7px 10px;
+  }
+
+  .brand-logo {
+    width: 48px;
+    height: 48px;
+  }
+
+  .landing-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .sidebar-note {
+    margin-top: 0;
+  }
+
+  .topbar-brand {
+    display: inline-flex;
+  }
+
+  .page-heading {
+    min-width: 0;
+  }
+
+  .page-heading h1 {
+    font-size: 1.45rem;
+  }
+
+  .table-actions {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    line-height: 1.65;
+  }
+
+  .landing-nav {
+    padding-inline: 14px;
+  }
+
+  .nav-links {
+    gap: 4px;
+  }
+
+  .nav-links a {
+    font-size: 0.92rem;
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-logo-card {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero-logo {
+    width: 72px;
+    height: 72px;
+  }
+
+  .project-thumb {
+    height: 130px;
+  }
+
+  .welcome-panel {
+    padding: 20px;
+  }
+
+  .welcome-panel::after {
+    width: 84px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(2rem, 13vw, 3.3rem);
+  }
+
+  .hero-trust span {
+    width: 100%;
+  }
+
+  .hero-visual {
+    border-radius: 24px;
+  }
+
+  .wallet-card strong {
+    font-size: 1.55rem;
+  }
+
+  .qr-card,
+  .progress-card,
+  .wallet-card {
+    margin-inline: 0;
+    width: 100%;
+  }
+
+  .stats-grid.compact-stats {
+    gap: 12px;
+  }
+
+  .stat-card strong {
+    font-size: 1.45rem;
+  }
+
+  .panel-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .filter-bar .btn {
+    width: 100%;
+  }
+
+  .project-thumb {
+    height: 142px;
+  }
+
+  .responsive-table {
+    margin-inline: -8px;
+    padding-inline: 8px;
+  }
+
+  .auth-page {
+    padding: 16px;
+  }
+
+  .auth-panel h1 {
+    font-size: 1.7rem;
+  }
+}
